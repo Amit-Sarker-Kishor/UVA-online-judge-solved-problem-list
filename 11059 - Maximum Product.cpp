@@ -12,7 +12,7 @@ int main()
             cin>>A[i];
         }
         ll output=0;
-        for(ll i=0 ; i<n-1 ; i++)
+        for(ll i=0 ; i<n ; i++)
         {
             ll multi=A[i];
             if(multi>output)
